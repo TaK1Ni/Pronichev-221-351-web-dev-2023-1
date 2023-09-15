@@ -1,40 +1,40 @@
+
+       
 body {
-    margin: 0; /* убираем внешний отступ (по бокам) */
+    margin: 0; 
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 ul {
-    padding: 0; /* убираем отступ слева от списка */
-    margin: 0; /* убираем область отпуста сверху, которая образуется из-за списка */
-    list-style: none; /* убираем точки */
+    padding: 0; 
+    margin: 0;
+    list-style: none; 
 }
 
-.header li { /* добавили header, чтобы ol в body выравнивался не в одну линию, как меню*/
-    display: inline; /* выравниванием меню с одну строку */
-    margin-right: 60px; /* отступы между пунктами меню */
+.header li { 
+    display: inline; 
+    margin-right: 60px; 
 }
 
-li:last-child { /* псевдокласс, last child применяется к ul, т.к. li вложен в ul*/
+li:last-child { 
     margin-right: 0;
 }
 
-.header { /* обращение не к header, а к классу header */
+.header { 
     color: black;
-    padding: 50px 0; /* составное свойство, чтобы не прописывать для 4 сторон отдельно */
-    letter-spacing: 2px; /* добавление пробелов между буквами */
-    text-transform: uppercase; /* преобразование текста в верхний регистр */
-    border-bottom: 3px solid black; /* добавление нижней границы */
-    /* font-size: 1em;  размер шрифта относительно родителя, 20 px - обычно стандартно,
-    1em - как у родителя, если у всех будет 0.5em, то это бесконечное уменьшение у наследников*/
+    padding: 50px 0; 
+    letter-spacing: 2px; 
+    text-transform: uppercase; 
+    border-bottom: 3px solid black; 
     background-image: url(/lab1/images/1668834330_3-41.jpg);
     background-size: cover;
 }
 
-/* контекстный селектор: */
-.main-menu a { /* применяем только к тегам а внутри меню, вложенность не имеет значения*/
-    text-decoration: none; /* убираем подчеркивания */
-    color: beige; /* цвет ссылок */
-    font-weight: bold; /* жирность начертания ссылок*/
+.main-menu a {
+    text-decoration: none; 
+    color: beige;
+    font-family: 'Caveat', serif;
+
 }
 
 .containerforhead {
