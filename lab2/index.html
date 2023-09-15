@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма обратной связи</title>
+</head>
+<body>
+    <h1>Форма обратной связи</h1>
+    <form method="POST" action="https://httpbin.org/post" enctype="multipart/form-data">
+        <input type="hidden" name="user_id" value="5">
+        <div>
+            <label for="fio">ФИО</label>
+            <input type="text" id="fio" placeholder="Введите ФИО" name="fio" value="Иванов Иван Иваныч" disabled>
+            
+        </div>
+        <div>
+            <label for="email">ФИО</label>
+            <input type="email" id="email" placeholder="ivan@ivanov.ru" name="email" required>
+            
+        </div>
+        <fieldset>
+            <legend>Как вы о нас узнали?</legend>
+            
+            <div>
+                <input type="radio" name="source" id="friend" value="friend">
+                <label for="friend">Друзья</label>
+            </div>
+            <div>
+                <input type="radio" name="source" id="ad" value="ad">
+                <label for="ad">Реклама</label>
+            </div>
+        </fieldset>
+        
+        <div>
+            <label for="feetback">Форма обратной связи</label>
+            <select name ="feetback" id="" multiple>
+                <option value="1">Жалобы</option>
+                <option value="2" selected>Предложения</option>
+            </select>
+        </div>
+
+        <div>   
+            <label for="msg"></label>
+            <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Введите сообщение">текст по умолчанию</textarea>
+
+        </div>
+
+        <div>
+            <label for="attachement">Вложение</label>
+            <input type="file" name="attachement" id="attachement">
+        </div>
+        <div>
+            <input type="checkbox" name="agree" id="agree" value="true" required>
+            <label for="agree">согласен с обработкой персональных данных </label>
+        </div>
+        <button>
+            отправить
+        </button>
+    </form>
+</body>
+</html>
