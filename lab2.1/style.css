@@ -1,0 +1,28 @@
+
+.header { 
+    color: black;
+    padding: 20px 0; 
+    text-transform: uppercase; 
+}
+
+.otstyp{
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+.ogranichen {
+    max-width: 300px;
+    max-height: 200px;
+  }
+
+.txtar {
+    max-width: 300px;
+    max-height: 200px;
+  }
+
+  body {
+    background-image: url("/image/1675421901_gas-kvas-com-p-gradient-fonovii-risunok-1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }

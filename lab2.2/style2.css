@@ -1,0 +1,85 @@
+.hed{
+  color: white;
+  padding: 20px 0; 
+  text-transform: uppercase; 
+  text-align: center
+}
+body {
+  background: url("/image/wallpapersden.com_anime-girl-looking-for-sunset_2560x1440.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+
+}
+.rectangle{
+
+  width: 30%;
+  height: 450px;
+  
+  border:20px white;
+  border:10px solid white;
+  border-radius: 20px;
+  margin:auto;
+}
+
+.input {
+  width: 100%;
+  padding: 8px 10px;
+  margin-bottom: 10px;
+  opacity: 75%;  
+  font-size: 16px;
+}
+
+.checkbox{
+  padding: 8px 10px;
+  margin-bottom: 30px;
+  font-size: 20px;
+  color: white;
+  width: 1em;
+  height: 1em;
+  border-radius: 30px;
+  opacity: 75%;  
+  border: 1px solid #adb5bd;
+}
+.text_center_middle{
+  
+  color: white;
+  text-align: center;
+  
+  line-height: 50px;
+  
+}
+.avatar{
+  height: 400px;
+  text-align: left;
+  margin-top:-15%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.fonsize{
+  font-size: 20px;
+  align-items: center;
+  color:white;
+}
+
+.form {
+  max-width: 320px;
+  padding: 15px;
+  margin: 20px auto;
+}
+.btn{
+  text-decoration: none;
+  background-color: transparent;
+  border: 3px solid;
+  border-radius: 20px;
+  width: 150px; 
+  height: 50px;
+  font-size: 20px;
+  transition: color 1s, border-color 1s;
+
+  color:white;
+}
+
+.btn:hover{
+  
+  border-color: orange;
+}

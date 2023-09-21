@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style2.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Аутентификация</title>
+</head>
+
+<body>
+    <header class="hed">    
+        <h1 class="midl">Сайт для любителей аниме</h1>
+    </header> 
+    <div class="rectangle">
+        <form class="form" method="POST" action="https://httpbin.org/post" enctype="multipart/form-data">
+              
+    
+        <input class="input" type="hidden" name="user_id" value="5">
+        <div class="text_center_middle">
+            <h1><u>Форма аутентификации</u></h1>
+        </div>
+        <div class="fonsize">   
+            <label for="Login">Логин</label>
+            <input class="input" type="text" id="Login" placeholder="Введите логин" name="Login" required>
+            
+        </div>
+        <div class="fonsize">
+            <label for="password">Пароль</label>
+            <input class="input" type="text" id="password" placeholder="Введите пароль" name="password" required>
+            
+        </div>
+        <div class="">   
+            <input class="checkbox" type="checkbox" name="agree" id="agree" value="true" required><label class="fonsize" for="agree">запомнить меня </label>
+        </div>
+        <div class="text_center_middle">
+            <button class="btn">
+                отправить
+            </button>
+        </div>
+        
+    
+
+    </form>
+</div>
+<img class="avatar" src="/image/animegif.gif" alt="">
+</body>
+</html>
