@@ -1,0 +1,150 @@
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    position: relative;
+    min-height: 100vh;
+}
+body::after{
+    content: "";
+    display: block;
+    height: 63px;
+}
+.main-menu{
+    float: left;
+}
+.header{
+    background-color: violet;
+    padding: 1.25rem 0;
+    border-bottom: 3px solid black;
+}
+
+
+.main-menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+.main-menu li{
+    display: inline;
+    margin-right: 3rem;
+    font-size: 20px;
+}
+.main-menu li:last-child{
+    margin: 0;
+}
+
+.header a{
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.container{
+    width: 95%;
+    margin: 0 auto;
+}
+
+.profil{
+    float: right;
+}
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear:both;
+}
+.sidebar{
+    float: left;
+    width: 15rem;
+    padding-top: 1rem;
+}
+.page-cont{
+    margin-left: 15rem;
+    padding: 1rem;
+}
+.products-header{
+    margin-top: 0;
+}
+.product-card{
+    height: 21.8rem;
+    width: 31rem;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgb(240, 240, 240);
+    display: inline-block;
+    margin: 0 0.625rem 0.625rem 0;
+}
+.product-image{
+    float: left;
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+}
+.product-image img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.product-details{
+    float:right;
+    width: 50%;
+    height: 100%;
+    padding: 1rem;
+}
+
+.product-details header{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.product-details .product-info{
+    text-align:justify;
+    font-size: 1.125rem;
+    height: 65%;
+    overflow: auto;
+}
+.product-details .btn{
+    font-size: 1rem;
+    color: white;
+    cursor: pointer;
+    border: none;
+    padding: 0; 
+    border-radius: 5px;
+    overflow: hidden;
+}
+.product-details span{
+    display: inline-block;
+    padding: 0.625rem 1.25rem;
+}
+
+.product-details .price{
+    background-color: #333;
+}
+.product-details .buy{
+    background-color: violet;
+    font-weight: bold;
+}
+.footer{
+    background-color: violet;
+    border-top: 3px solid black;
+    padding: 1.25rem;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+
+}
+.centered-text {
+    width: 100%;
+    text-align:justify;
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: 18px;
+
+  }
