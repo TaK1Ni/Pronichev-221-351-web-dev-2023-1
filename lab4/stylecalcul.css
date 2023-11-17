@@ -1,0 +1,73 @@
+body {
+  background-color: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  
+}
+
+
+.container {
+  width: 530px; 
+  display: flex;
+  flex-direction: column;
+  align-items: flex;
+  border: 4px solid #000000;
+  border-radius: 15px;
+  box-shadow: 0 25px 60px -10px rgba(0,0,0,0.5);
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  height: 500px;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.screen {
+  background-color: rgb(242, 232, 245);
+  font-size: 67px; 
+  border-radius: 10px 10px 0px 0px;
+  height: 60px; 
+  width: 470px; 
+  align-items: center;
+  display: flex;
+  font-size: 67px; 
+  padding: 40px 30px;
+  justify-content: flex-end;
+  color: #000000;
+
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  margin-left: 40px;
+  
+}
+
+button {
+  width: 80px; 
+  height: 80px; 
+  text-align: center;
+  background-color: transparent;
+  font-size: 36px; 
+  border: transparent; 
+  cursor: pointer;
+}
+
+.position {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
