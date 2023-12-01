@@ -19,6 +19,7 @@ body::after{
     background-color: violet;
     padding: 1.25rem 0;
     border-bottom: 3px solid black;
+    font-family: 'Caveat', serif;
 }
 
 
@@ -44,6 +45,7 @@ body::after{
     text-transform: uppercase;
     font-weight: bold;
     margin-bottom: 20px;
+    
 }
 
 .container{
@@ -71,6 +73,7 @@ body::after{
 }
 .products-header{
     margin-top: 0;
+    
 }
 .product-card{
     height: 21.8rem;
@@ -78,8 +81,13 @@ body::after{
     border: 2px solid black;
     border-radius: 10px;
     background-color: rgb(240, 240, 240);
-    display: inline-block;
-    margin: 0 0.625rem 0.625rem 0;
+    display: flex;
+}
+.products{
+    flex-shrink: 2; 
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 .product-image{
     float: left;
@@ -138,7 +146,7 @@ body::after{
     position: absolute;
     width: 100%;
     bottom: 0;
-
+    font-family: 'Caveat', serif;
 }
 .centered-text {
     width: 100%;
@@ -146,5 +154,5 @@ body::after{
     max-width: 600px;
     margin: 0 auto;
     font-size: 18px;
-
+    font-family: 'Caveat', serif;
   }
