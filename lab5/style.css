@@ -1,0 +1,86 @@
+body, html {
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    margin: 0 25%;
+}
+
+.Post:first-child {
+    margin-top: 0;
+}
+
+.pagination {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pagination button {
+    border-radius: 10px;
+    height: 40px;
+    background-color:  rgba(11, 122, 128, 0.5);;
+    color: white;
+    box-sizing: border-box;
+    border: 2px solid cyan;;
+}
+
+.Post {
+    margin-top: 15px;
+    padding: 5px;
+    border: 5px solid cyan;
+    border-radius: 15px;
+    background-color: rgba(11, 122, 128, 0.5);
+}
+.search-form {
+    display: flex;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.search-form input {
+    height: 40px;
+    width: 100%;
+    font-size: 30px;
+    box-sizing: border-box;
+    border: 5px solid cyan;
+    border-radius: 10px 0px 0px 0;
+
+}
+
+.search-form button {
+    height: 40px;
+    background-color: rgba(11, 122, 128, 0.5);
+    color: white;
+    box-sizing: border-box;
+    border: 5px solid cyan;
+    font-size: 25px;
+}
+
+.search-form button:hover {
+    background-color: rgba(100, 100, 100, 0.275);
+}
+
+.lines {
+    top: 35px;
+    margin-right: 85px;
+    width: calc(100% - 85px);
+    position: absolute;
+    box-sizing: border-box;
+    border: 5px solid cyan;
+    border-top: none;
+    z-index: 5;
+    background-color: white;
+}
+
+.lines p {
+    font-size: 25px;
+    padding: 5px 5px 5px 5px;
+    margin: 0;
+}
+
+.lines p:hover {
+    background-color: rgba(11, 122, 128, 0.5);
+    color: white;
+    cursor: default;
+}
